@@ -23,16 +23,16 @@ public class Conversion {
          private Longitudes longitudes;
     public float metrosApies(){
         //este metodo tiene logica
-        float resultado=longitudes.getmetros()*1.8f+32;
+        float resultado=longitudes.getmetros()*3.2808f;
         return resultado;
     }
 
-    public Longitudes getmetros() {
-        return metros;
+    public Longitudes getlongitudes() {
+        return longitudes;
     }
 
-    public void setGrados(metros metros) {
-        this.metros = metros;
+    public void setlongitudes(Longitudes longitudes) {
+        this.longitudes =longitudes;
     }
 }
 

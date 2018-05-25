@@ -17,8 +17,8 @@ public class Longitudes {
         return metros;
     }
 
-    public void setmetros(float centigrados) {
-        this.metros = centigrados;
+    public void setmetros(float metros) {
+        this.metros = metros;
     }
 
     public float getpies() {
